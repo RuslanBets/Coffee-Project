@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+:root {
+    --main-width: 1140px;
+}
+body {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*main-page-header*/
+
+#main-page-header {
+    position: fixed;
+    top: 10px;
+    z-index: 250;
+    left: 0;
+    right: 0;
+}
+
+#main-page-header .header-nav {
+    max-width: var(--main-width);
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#main-page-header  .menu-contacts {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#main-page-header .header-nav span {
+    margin: 0 0 0 10px;
+    color: white;
+}
+
+#main-page-header .header-nav .menu {
+    width: 484px;
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+#main-page-header .menu a {
+    text-decoration: none;
+    margin: 0 0 0 10px;
+    color: white;
+}
+
+/*introduction*/
+
+#introduction {
+    background-image: url("../img/bg.webp");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 722px;
+}
+#introduction .wrapper {
+    max-width: var(--main-width);
+    margin: auto;
+    padding-top: 80px;
+    color: white;
+    font-weight: bold;
+}
+
+#introduction .wrapper .pre-header {
+    font-size: 60px;
+    margin: 20px 0;
+
+}
+
+#introduction .wrapper .text-box {
+    margin-top: 30px;
+}
+#introduction .wrapper .btn{
+    padding: 10px 40px;
+    background-color: white;
+    border-radius: 20px;
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+    border: 2px solid transparent;
+    transition: 0.3s all;
+}
+
+#introduction .wrapper .btn:hover{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+
+#video-section .wrapper {
+    max-width: var(--main-width);
+    margin: auto;
+    display: flex;
+}
+
+#video-section .wrapper .video-box {
+    width: 50%;
+
+}
+
+#video-section .video-box .video {
+    width: 100%;
+    height: 350px;
+    border-radius: 8px;
+}
+
+
+#video-section .wrapper .video-description {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 10px 10px 10px 114px;
+}
+
+
