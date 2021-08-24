@@ -116,4 +116,82 @@ body {
     padding: 10px 10px 10px 114px;
 }
 
+/*section id="dishes*/
+
+#dishes {
+    background: url(../img/xmenu-bg.jpg.pagespeed.ic.xYr9qBvnG1.webp) center;
+    background-size: cover;
+    padding: 120px 0;
+}
+
+#dishes .wrapper {
+    max-width: var(--main-width);
+    margin: auto;
+}
+
+#dishes .wrapper .header {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+#dishes .wrapper .small-header {
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+#dishes .items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+#dishes .items .item {
+    width: 350px;
+    height: 147px;
+    background-color: #fff;
+    box-shadow: 0px 10px 30px 0px rgb(182 136 52 / 20%);
+    border-radius: 10px;
+    margin-bottom: 45px;
+    padding: 30px 30px;
+    box-sizing:border-box;
+}
+
+#dishes .items .name-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+#dishes .item .name {
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    font-weight: 600;
+}
+
+#dishes .item .price {
+    color: #b68834;
+    font-size: 18px;
+    font-weight: 600;
+} 
+
+#dishes .item .info {
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    padding-top: 20px;
+}
+
+
+
+
 
