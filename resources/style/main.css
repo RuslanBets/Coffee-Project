@@ -96,6 +96,8 @@ body {
     max-width: var(--main-width);
     margin: auto;
     display: flex;
+    padding-top: 40px;
+    padding-bottom: 100px;
 }
 
 #video-section .wrapper .video-box {
@@ -190,6 +192,49 @@ body {
     font-weight: 300;
     padding-top: 20px;
 }
+
+/*div class="video-description*/
+
+#video-section .first-header {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #b68834;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    margin-top: 20px;
+}
+
+#video-section .bolt-header {
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#video-section .small-header {
+    color: #000;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+
+#video-section .text {
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    margin: 10px 0;
+}
+
+#video-section .signature {
+
+}
+
+
+
 
 
 
