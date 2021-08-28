@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700&display=swap');
 :root {
     --main-width: 1140px;
 }
@@ -335,6 +335,9 @@ body {
     margin-top: 60px;
 }
 
+#yellow-block .mini-block .block{
+    padding: 0px 15px;
+}
 #yellow-block  .mini-block .header-small {
     color: #fff;
     font-size: 18px;
@@ -345,7 +348,6 @@ body {
     margin: 20px 0;
     display:flex;
 }
-
 .rating-mini {
 	display: inline-block;
 	font-size: 0;
