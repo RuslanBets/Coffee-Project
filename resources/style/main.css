@@ -394,7 +394,124 @@ body {
     line-height: 1.625em;
 }
 
+
+/*------section id="duoble-photo-------------*/
+
+#duoble-photo .wrapper {
+    max-width: var(--main-width);
+    margin: auto;
 }
+
+#duoble-photo .wrapper .header {
+    font-size: 36px;
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    font-weight: 600;
+    line-height: 1.2em;
+    text-align: center;
+    margin-top: 120px;
+}
+
+#duoble-photo .wrapper .small-header {
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+#duoble-photo .wrapper  .center-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+
+#duoble-photo .center-block  .left-block {
+    max-width: 570px;
+    min-height: 514px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#duoble-photo .center-block  .right-block {
+    max-width: 570px;
+    min-height: 514px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+#duoble-photo .center-block .button1 {
+    font-size: 12px;
+    color: #222;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    line-height: 1.625em;
+    border-radius: 20px;
+    border: 1px solid #eee;
+    background-color: transparent;
+    padding: 4px 20px;
+} 
+
+#duoble-photo .center-block .button1:hover{
+    cursor: pointer;
+    background-color: #b68834;
+    color: #fff;
+    transition: 0.5s;
+}
+
+#duoble-photo .center-block .button2 {
+    font-size: 12px;
+    color: #222;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    line-height: 1.625em;
+    border-radius: 20px;
+    border: 1px solid #eee;
+    background-color: transparent;
+    padding: 4px 20px;
+} 
+
+#duoble-photo .center-block .button2:hover{
+    cursor: pointer;
+    background-color: #b68834;
+    color: #fff;
+    transition: 0.5s;
+}
+
+#duoble-photo .center-block .mini-header a {
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    line-height: 1.2em;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#duoble-photo .center-block .text {
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+}
+
+#duoble-photo .center-block .date {
+    color: #222;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.625em;
+}
+
+
 
 
 
