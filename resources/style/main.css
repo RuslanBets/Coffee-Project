@@ -525,6 +525,9 @@ body {
 .footer .color{
     color: #b68834;
 }
+ .footer .far {
+     color: #b68834;
+ }
 .footer .wrapper{
     max-width: var(--main-width);
     margin: auto;
@@ -539,13 +542,43 @@ body {
     width: 33%;
     font-size: 15px;
 }
+
+.footer .wrapper .first-item{
+    margin-top: 60px;
+}
+
+.footer .item .header{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
 .footer .wrapper .item:last-child{
     width: 10%;
 }
 .footer .wrapper .info,
 .footer .wrapper .text{
     font-weight: 300;
+    font-size: 15px;
+    color: #fff;
 }
+
+.footer .wrapper .social-icons a {
+    padding-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer .wrapper .social-icons a:hover {
+    color: #b68834;
+    transition: 0.5s all;
+}
+
+.footer .wrapper .info a {
+    text-decoration: none;
+}
+
 .footer .wrapper .text{
     margin: 20px 0px;
 }
