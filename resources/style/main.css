@@ -2,6 +2,11 @@
 :root {
     --main-width: 1140px;
 }
+
+html {
+    scroll-behavior: smooth !important;
+}
+
 body {
     margin: 0px;
     font-family: 'Poppins', sans-serif;
@@ -49,6 +54,15 @@ body {
     text-decoration: none;
     margin: 0 0 0 10px;
     color: white;
+}
+
+.burger {
+    color: white;
+    display: none;
+}
+
+.close-btn {
+    display: none;
 }
 
 /*introduction*/
@@ -605,6 +619,50 @@ body {
     padding: 8px 12px;
     border: 0;
     cursor: pointer;
+}
+@media screen and (max-width: 1000px) {
+    #main-page-header .menu-contacts {
+        display: none;
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        background: rgba(0, 0, 0, 0.7);
+        padding-top: 0;
+    }
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
+    .close-btn {
+        display: block;
+        color: white;
+        position: absolute;
+        top: 2%;
+        right: 2%;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .contacts {
+        display: none;
+    }
+    #main-page-header .menu-contacts .menu {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.8);
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-left: 0;
+        width: 260px;
+    }
+
+    #main-page-header .menu li {
+        padding: 10px;
+    }
+
 }
 
 
