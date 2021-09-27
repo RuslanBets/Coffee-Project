@@ -657,6 +657,7 @@ body {
         justify-content: flex-start;
         padding-left: 0;
         width: 260px;
+        margin: 0;
     }
 
     #main-page-header .menu li {
