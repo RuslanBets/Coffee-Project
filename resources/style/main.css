@@ -621,6 +621,11 @@ body {
     cursor: pointer;
 }
 @media screen and (max-width: 1000px) {
+
+    #main-page-header {
+        padding: 0 15px;
+    }
+
     #main-page-header .menu-contacts {
         display: none;
         position: fixed;
@@ -660,9 +665,150 @@ body {
         margin: 0;
     }
 
-    #main-page-header .menu li {
+     #main-page-header .menu li {
         padding: 10px;
+    } 
+
+    #introduction {
+        background-size: cover;
+        width: 100%;
     }
+
+    #introduction .text-box {
+        padding: 0 15px;
+    }
+
+
+    #introduction .wrapper .pre-header {
+        font-size: 40px;
+    }
+
+    #video-section .wrapper {
+        flex-direction: column;
+        padding: 0 15px;
+    }
+
+    #video-section .wrapper .video-box {
+        width: 100%;
+    }
+
+    #video-section .wrapper .video-description {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #dishes {
+        padding: 40px 0;
+    }
+
+    #dishes .wrapper {
+        padding: 0 15px;
+    }
+
+
+
+    #dishes .wrapper .header {
+        font-size: 25px;
+    }
+
+    #dishes .wrapper .items .item {
+        margin: 10px 0;
+    }
+
+    #pictures-block .wrapper {
+        padding: 0 15px;
+    }
+
+    #pictures-block .wrapper .header {
+        margin-top: 40px;
+    }
+
+    #pictures-block .wrapper .pictures {
+        margin-bottom: 15px;
+    }
+
+    #pictures-block .wrapper .pictures img {
+        width: 100%;
+    }
+
+    #pictures-block .wrapper .pictures .bottom {
+        flex-direction: column;
+    }
+
+    #yellow-block .wrapper {
+        padding: 0 15px;
+        flex-direction: column;
+    }
+
+    #yellow-block .wrapper .header {
+        padding: 30px;
+    }
+
+    #yellow-block .wrapper .mini-block {
+        flex-direction: column;
+    }
+
+    #yellow-block .wrapper .bottom-block {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 30px;
+        margin-top: 20px;
+    }
+
+    #yellow-block .wrapper .bottom-block .items {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    #double-photo .wrapper {
+        padding: 0 15px;
+    }
+
+    #double-photo .wrapper .header {
+        margin-top: 30px;
+    }
+
+    #double-photo .wrapper .center-block {
+        flex-direction: column;
+    }
+    #double-photo .wrapper .center-block img {
+        width: 100%;
+    }
+
+
+    .footer {
+        background-size: cover;
+        width: 100%;
+        padding: 20px 0;
+        height: auto;
+    }
+
+    .footer .wrapper {
+        padding: 0 15px;
+        margin-bottom: 40px;
+    }
+
+    .footer .wrapper .elements {
+        flex-direction: column;
+    }
+
+    .footer .wrapper .elements .item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
 

@@ -3,7 +3,7 @@ window.onload = function top() {
   let burger = document.querySelector('.burger')
   let menu = document.querySelector('.menu-contacts')
   let closeBtn = document.querySelector('.close-btn')
-  console.log(closeBtn)
+ 
   
   window.onscroll = function(){
     if (pageYOffset > 80) {
