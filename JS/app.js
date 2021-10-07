@@ -3,8 +3,8 @@ window.onload = function top() {
   let burger = document.querySelector('.burger')
   let menu = document.querySelector('.menu-contacts')
   let closeBtn = document.querySelector('.close-btn')
-  const duration = 3000
-  const counterStep = 101
+  const duration = 4000
+  const counterStep = 51
 
   function countUp(counterLimit, id) {
     const el = document.querySelector('#'+ id);

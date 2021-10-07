@@ -395,6 +395,10 @@ body {
     margin-top: 100px;
 }
 
+#yellow-block .bottom-block .items {
+    width: 100px;
+}
+
 #yellow-block .bottom-block .numder {
     font-size: 60px;
     font-weight: 100;
@@ -409,6 +413,10 @@ body {
     font-size: 14px;
     font-weight: 300;
     line-height: 1.625em;
+}
+
+#yellow-block .bottom-block .words {
+    width: 110px;
 }
 
 
