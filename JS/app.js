@@ -1,11 +1,14 @@
 window.onload = function top() {
-  let header = document.getElementById('main-page-header')
-  let burger = document.querySelector('.burger')
-  let menu = document.querySelector('.menu-contacts')
-  let closeBtn = document.querySelector('.close-btn')
-  const duration = 4000
+  const header = document.getElementById('main-page-header')
+  const burger = document.querySelector('.burger')
+  const menu = document.querySelector('.menu-contacts')
+  const closeBtn = document.querySelector('.close-btn')
+  const yellowBlock = document.querySelector('#yellow-block')
+  let counted = false
+  const duration = 3000
   const counterStep = 51
 
+  //--------Counter--------------------------------------------------------
   function countUp(counterLimit, id) {
     const el = document.querySelector('#'+ id);
     const timeStep = Math.round(duration / (counterLimit / counterStep));
@@ -19,22 +22,23 @@ window.onload = function top() {
       el.innerText = Math.min(counterValue, counterLimit);
     }, timeStep);
   }
-
-  countUp(2536, 'out-1')
-  countUp(7562, "out-2")
-  countUp(2013, "out-3")
-  countUp(10536, "out-4")
- 
-  
+  //-----------scrollAnimation------------------------------------------
   window.onscroll = function(){
     if (pageYOffset > 80) {
       header.style.backgroundColor = 'rgba(20,2,0,.8)'
       header.style.transition = '0.5s all'
-    }else {
+    } else {
       header.style.backgroundColor = ""
     }
+    if (!counted && yellowBlock.getBoundingClientRect().top <= 0) {
+      countUp(2536, 'out-1')
+      countUp(7562, "out-2")
+      countUp(2013, "out-3")
+      countUp(10536, "out-4")
+      counted = true
+    } 
   }
-//-----------------------------------------------------------------
+//-----------BurgerMenu------------------------------------------------------------
   let form = document.querySelector('.subscribe-form'),
   email = document.getElementsByName('email')[0],
   userData = {};
@@ -55,9 +59,3 @@ window.onload = function top() {
     document.body.style.overflow = ''
   })
 }
-
-
-
-// if(userData.email = email.value) {
-//   console.log(userData)
-// }
