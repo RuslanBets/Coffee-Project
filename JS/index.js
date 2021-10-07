@@ -3,25 +3,27 @@ window.onload = function top() {
   let burger = document.querySelector('.burger')
   let menu = document.querySelector('.menu-contacts')
   let closeBtn = document.querySelector('.close-btn')
-  let time = 1000
-  let step = 100
+  const duration = 3000
+  const counterStep = 101
 
-  function outNum (num, elem) {
-    let l = document.querySelector('#'+ elem);
-    n = 0
-    let t = Math.round(time / (num / step));
-    let interval = setInterval(() => {
-      n = n + step;
-      if (n === num) {
-        clearInterval(interval)
+  function countUp(counterLimit, id) {
+    const el = document.querySelector('#'+ id);
+    const timeStep = Math.round(duration / (counterLimit / counterStep));
+    let counterValue = 0
+
+    const timerId = setInterval(() => {
+      counterValue += counterStep;
+      if (counterValue >= counterLimit) {
+        clearInterval(timerId)
       }
-      l.innerHTML = n;
-    },
-      t)
+      el.innerText = Math.min(counterValue, counterLimit);
+    }, timeStep);
   }
 
-  // outNum(2536, 'out-1')
-
+  countUp(2536, 'out-1')
+  countUp(7562, "out-2")
+  countUp(2013, "out-3")
+  countUp(10536, "out-4")
  
   
   window.onscroll = function(){
@@ -39,7 +41,6 @@ window.onload = function top() {
   form.onsubmit = function(e) {
     e.preventDefault()
     userData.email = email.value
-    email.value = ""
     console.log(userData);
   }
   burger.addEventListener('click', function() {
